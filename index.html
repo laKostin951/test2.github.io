@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: grey;
+        }
+
+        img {
+            position: absolute;
+            left: 0;
+            top: -100%;
+
+
+
+        }
+
+        button {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="sea-serpent-digital-art-4k-t0.jpg" id="img_z" />
+    <button id="button_clicl">Click Me</button>
+
+</body>
+<script>
+    }) document.getElementById('button_clicl').addEventListener('click', (event) => {
+        document.getElementById('img_z').style.top = 0;
+
+    }) document.getElementById('button_clicl').addEventListener('mouseover', (event) => {
+        document.getElementById('img_z').src = 'sea-serpent-digital-art-4k-t0.jpg'
+    })
+</script>
+
+</html>

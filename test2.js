@@ -1,0 +1,1 @@
+var user = localStorage.getItem('x_local')
